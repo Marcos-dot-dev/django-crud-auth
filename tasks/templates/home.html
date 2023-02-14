@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block content %}
+
+<main class="container py-5">
+  <section class="card card-body">
+    <div class="container">
+      <h1 class="display-1 text-center">Django app</h1>
+      <p>
+        Django es un framework web de alto nivel que permite el desarrollo rápido de sitios web seguros y mantenibles. Desarrollado por programadores experimentados, Django se encarga de gran parte de las complicaciones del desarrollo web, por lo que puedes concentrarte en escribir tu aplicación sin necesidad de reinventar la rueda. Es gratuito y de código abierto, tiene una comunidad próspera y activa, una gran documentación y muchas opciones de soporte gratuito y de pago.
+      </p>
+      <p>
+        Django fue desarrollado inicialmente entre 2003 y 2005 por un equipo que era responsable de crear y mantener sitios web de periódicos. Después de crear varios sitios, el equipo empezó a tener en cuenta y reutilizar muchos códigos y patrones de diseño comunes. Este código común se convirtió en un framework web genérico, que fue de código abierto, conocido como proyecto "Django" en julio de 2005.
+      </p>
+      <p>
+        Django ha continuado creciendo y mejorando desde su primer hito, el lanzamiento de la versión (1.0) en septiembre de 2008, hasta el reciente lanzamiento de la versión 1.11 (2017). Cada lanzamiento ha añadido nuevas funcionalidades y solucionado errores, que van desde soporte de nuevos tipos de bases de datos, motores de plantillas, caching, hasta la adición de funciones genéricas y clases de visualización (que reducen la cantidad de código que los desarrolladores tiene que escribir para numerosas tareas de programación).
+      </p>
+    </div>
+    <div class="text-center">
+      <a class="btn btn-secondary" href="/signin/">
+        Signin
+      </a>
+      <a class="btn btn-secondary" href="/signup/">
+        Signup
+      </a>
+    </div>
+  </section>
+</main>
+
+{% endblock %}
